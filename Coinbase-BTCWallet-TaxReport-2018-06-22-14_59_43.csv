@@ -1,0 +1,23 @@
+Cost Basis for Taxes *,"","This report does not constitute legal or tax advice.  Tax laws and regulations change frequently, and their application can vary widely based on the specific facts and circumstances involved. You are responsible for consulting with your own professional tax advisors concerning specific tax circumstances for your business. Coinbase disclaims any responsibility for the accuracy or adequacy of any positions taken by you in your tax returns."
+"","","This tool considers all sends and receives as taxable events, even if that is not the case. As such, this tool WILL NOT BE ACCURATE if you have sent cryptocurrency to a non-Coinbase wallet, another exchange (including GDAX), an external storage device, or if you have participated in an ICO."
+"","","We use a FIFO (first in first out) method for this report. For all digital asset transactions the prices are calculated based on the market price at the time of transaction. If you have more specific records, please update the field in question and recalculate capital gains as sale proceeds minus cost basis."
+User,arpithparikh@gmail.com,5950649cdfebd8011dca6a16
+Account,BTC Wallet,5950649ddfebd8011dca6a33
+
+SUMMARY:
+Year,Total Buys (USD),Total Quantity Sold (BTC),Total Sells (USD),Total Gains/Losses (USD)
+2017,12612.75,2.85,13229.66,616.91
+
+DETAILS:
+BUYS,"","","","","",SELLS,"","","","","","",GAIN / LOSS,""
+Received Transaction ID,Received Date,Received Description,Received Price Per Coin (USD),Cost Basis (USD),"",Sent Transaction ID,Sent Date,Sent Description,Sent Price Per Coin (USD),Sent Quantity (BTC),Sent Total (USD),"",Gains / Losses,Short / Long Term Capital Gains
+596cf353956b0f0001b0fb08,2017-07-17 10:26:32 -0700,Bought using Bank of America - Chec... ********1916,2158.30,3044.70,"",5972434bab10cc00018b892e,2017-07-21 11:09:09 -0700,Sold using Bank of America - Chec... ********1916,2620.59,1.41069064,3696.85,"",652.15,Short Term
+59723e69b0e9d6000127a458,2017-07-21 10:48:25 -0700,Received from Coinbase,2711.42,10.00,"",5972434bab10cc00018b892e,2017-07-21 11:09:09 -0700,Sold using Bank of America - Chec... ********1916,2620.59,0.0036879999999999136,9.66,"",-0.34,Short Term
+59723e69b0e9d6000127a458,2017-07-21 10:48:25 -0700,Received from Coinbase,2711.42,0.00,"",59c43eaba530280189efc475,2017-09-21 15:35:23 -0700,Sent to 1HCEferR4Cq4URjpZaU97hCJbC1szjVXRi,3661.98,8.630249292984615e-17,0.00,"",0.00,Short Term
+59c43de0a0b5600001edb07d,2017-09-21 15:31:57 -0700,Bought using Visa credit ********1866,3827.26,498.66,"",59c43eaba530280189efc475,2017-09-21 15:35:23 -0700,Sent to 1HCEferR4Cq4URjpZaU97hCJbC1szjVXRi,3661.98,0.13029228999999992,477.13,"",-21.53,Short Term
+59c43de0a0b5600001edb07d,2017-09-21 15:31:57 -0700,Bought using Visa credit ********1866,3827.26,1.34,"",5a02f8c616da5e000104ccb6,2017-11-08 04:29:49 -0800,Sold using USD Wallet,7350.34,0.0003493200000000696,2.57,"",1.23,Short Term
+5a00c13908fd3c000158bdc6,2017-11-06 12:08:22 -0800,Bought using USD Wallet,7253.03,2997.47,"",5a02f8c616da5e000104ccb6,2017-11-08 04:29:49 -0800,Sold using USD Wallet,7350.34,0.4132709499999999,3037.68,"",40.21,Short Term
+5a00c13908fd3c000158bdc6,2017-11-06 12:08:22 -0800,Bought using USD Wallet,7253.03,2.53,"",5a07331f0b6e2f0170bbf820,2017-11-11 09:27:59 -0800,Sent to 1MqMuoiiztLt55gMqU9wf9Tpx5eP5PfVdN,6392.23,0.00034932000000009733,2.23,"",-0.30,Short Term
+5a063fd6e766850001022c6c,2017-11-10 16:09:54 -0800,Bought using USD Wallet,6768.03,3031.56,"",5a07331f0b6e2f0170bbf820,2017-11-11 09:27:59 -0800,Sent to 1MqMuoiiztLt55gMqU9wf9Tpx5eP5PfVdN,6392.23,0.4479238999999999,2863.23,"",-168.33,Short Term
+5a063fd6e766850001022c6c,2017-11-10 16:09:54 -0800,Bought using USD Wallet,6768.03,8.69,"",5a0c303cdbc7160001681c3c,2017-11-15 04:16:55 -0800,Sold using Bank of America - Saving ********4359,7013.17,0.0012836100000001016,9.00,"",0.31,Short Term
+5a0997b93bda9800019c8d60,2017-11-13 05:01:45 -0800,Received from an external account,6758.94,3017.80,"",5a0c303cdbc7160001681c3c,2017-11-15 04:16:55 -0800,Sold using Bank of America - Saving ********4359,7013.17,0.4464895899999999,3131.31,"",113.51,Short Term

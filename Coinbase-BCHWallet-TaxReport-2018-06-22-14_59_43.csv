@@ -1,0 +1,12 @@
+Cost Basis for Taxes *,"","This report does not constitute legal or tax advice.  Tax laws and regulations change frequently, and their application can vary widely based on the specific facts and circumstances involved. You are responsible for consulting with your own professional tax advisors concerning specific tax circumstances for your business. Coinbase disclaims any responsibility for the accuracy or adequacy of any positions taken by you in your tax returns."
+"","","This tool considers all sends and receives as taxable events, even if that is not the case. As such, this tool WILL NOT BE ACCURATE if you have sent cryptocurrency to a non-Coinbase wallet, another exchange (including GDAX), an external storage device, or if you have participated in an ICO."
+"","","We use a FIFO (first in first out) method for this report. For all digital asset transactions the prices are calculated based on the market price at the time of transaction. If you have more specific records, please update the field in question and recalculate capital gains as sale proceeds minus cost basis."
+User,arpithparikh@gmail.com,5950649cdfebd8011dca6a16
+Account,BCH Wallet,5a329a74f11f3600016daf3a
+
+SUMMARY:
+Year,Total Buys (USD),Total Quantity Sold (BCH),Total Sells (USD),Total Gains/Losses (USD)
+
+DETAILS:
+BUYS,"","","","","",SELLS,"","","","","","",GAIN / LOSS,""
+Received Transaction ID,Received Date,Received Description,Received Price Per Coin (USD),Cost Basis (USD),"",Sent Transaction ID,Sent Date,Sent Description,Sent Price Per Coin (USD),Sent Quantity (BCH),Sent Total (USD),"",Gains / Losses,Short / Long Term Capital Gains

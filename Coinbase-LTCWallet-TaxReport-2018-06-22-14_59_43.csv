@@ -1,0 +1,16 @@
+Cost Basis for Taxes *,"","This report does not constitute legal or tax advice.  Tax laws and regulations change frequently, and their application can vary widely based on the specific facts and circumstances involved. You are responsible for consulting with your own professional tax advisors concerning specific tax circumstances for your business. Coinbase disclaims any responsibility for the accuracy or adequacy of any positions taken by you in your tax returns."
+"","","This tool considers all sends and receives as taxable events, even if that is not the case. As such, this tool WILL NOT BE ACCURATE if you have sent cryptocurrency to a non-Coinbase wallet, another exchange (including GDAX), an external storage device, or if you have participated in an ICO."
+"","","We use a FIFO (first in first out) method for this report. For all digital asset transactions the prices are calculated based on the market price at the time of transaction. If you have more specific records, please update the field in question and recalculate capital gains as sale proceeds minus cost basis."
+User,arpithparikh@gmail.com,5950649cdfebd8011dca6a16
+Account,LTC Wallet,5950649ddfebd8011dca6a3b
+
+SUMMARY:
+Year,Total Buys (USD),Total Quantity Sold (LTC),Total Sells (USD),Total Gains/Losses (USD)
+2017,7139.84,75.93,7784.17,644.33
+
+DETAILS:
+BUYS,"","","","","",SELLS,"","","","","","",GAIN / LOSS,""
+Received Transaction ID,Received Date,Received Description,Received Price Per Coin (USD),Cost Basis (USD),"",Sent Transaction ID,Sent Date,Sent Description,Sent Price Per Coin (USD),Sent Quantity (LTC),Sent Total (USD),"",Gains / Losses,Short / Long Term Capital Gains
+59a36859223a2600010b74d9,2017-08-27 17:48:22 -0700,Bought using USD Wallet,61.17,4059.60,"",59a86a6d58800b0001a70b09,2017-08-31 12:58:33 -0700,Sold using USD Wallet,70.88,66.3681758,4703.93,"",644.33,Short Term
+5a320dbe64841b0137bc7e65,2017-12-13 21:35:58 -0800,Received from GDAX,316.10,158.05,"",5a320dbeee434b010edc7390,2017-12-13 21:35:58 -0800,Sent to LfKTHTeGt1G7bnHLYJyN8eEdhoUweY3WkG,316.10,0.5,158.05,"",0.00,Short Term
+5a35cd5f686dee04ab64fd19,2017-12-16 17:50:23 -0800,Received from GDAX,322.62,2922.19,"",5a35cd600883d60144b262d5,2017-12-16 17:50:24 -0800,Sent to LfKTHTeGt1G7bnHLYJyN8eEdhoUweY3WkG,322.62,9.05767948,2922.19,"",0.00,Short Term
