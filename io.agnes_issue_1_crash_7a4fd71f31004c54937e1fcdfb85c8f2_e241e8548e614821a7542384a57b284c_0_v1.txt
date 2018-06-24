@@ -1,0 +1,218 @@
+# Crashlytics - plaintext stacktrace downloaded by Agnes at Wed, 08 Mar 2017 22:37:34 GMT
+# URL: https://fabric.io/agnesio/ios/apps/io.agnes/issues/58c084910aeb16625b28e3e6?time=last-twenty-four-hours/sessions/7a4fd71f31004c54937e1fcdfb85c8f2_e241e8548e614821a7542384a57b284c_0_v1
+# Organization: Agnes.io
+# Platform: ios
+# Application: Agnes
+# Version: N/A
+# Bundle Identifier: io.agnes
+# Issue #: 1
+# Issue ID: 58c084910aeb16625b28e3e6
+# Session ID: 7a4fd71f31004c54937e1fcdfb85c8f2_e241e8548e614821a7542384a57b284c_0_v1
+# Date: 2017-03-08T18:08:35Z
+# OS Version: 10.2.1 (14D27)
+# Device: iPhone 6s
+# RAM Free: 7.4%
+# Disk Free: 4.4%
+
+#0. Crashed: com.apple.main-thread
+0  Agnes                          0x100359960 -[Crashlytics crash] + 14
+1  Agnes                          0x1001793f0 -[FabricPlugin sendCrash:] (FabricPlugin.m:248)
+2  Agnes                          0x10018cf44 -[CDVCommandQueue execute:] (CDVCommandQueue.m:182)
+3  Agnes                          0x10018c838 -[CDVCommandQueue executePending] (CDVCommandQueue.m:134)
+4  Agnes                          0x10018b494 -[CDVUIWebViewNavigationDelegate webView:shouldStartLoadWithRequest:navigationType:] (CDVUIWebViewNavigationDelegate.m:112)
+5  Agnes                          0x1001813d8 -[CDVUIWebViewDelegate webView:shouldStartLoadWithRequest:navigationType:] (CDVUIWebViewDelegate.m:213)
+6  UIKit                          0x1882bbd44 -[UIWebView webView:decidePolicyForNavigationAction:request:frame:decisionListener:] + 300
+7  CoreFoundation                 0x1821ef150 __invoking___ + 144
+8  CoreFoundation                 0x1820e1eac -[NSInvocation invoke] + 284
+9  CoreFoundation                 0x1820e695c -[NSInvocation invokeWithTarget:] + 60
+10 WebKitLegacy                   0x187d87cf4 <redacted> + 156
+11 CoreFoundation                 0x1821ed070 ___forwarding___ + 404
+12 CoreFoundation                 0x1820e680c _CF_forwarding_prep_0 + 92
+13 CoreFoundation                 0x1821ef150 __invoking___ + 144
+14 CoreFoundation                 0x1820e1eac -[NSInvocation invoke] + 284
+15 WebCore                        0x186cf2d74 <redacted> + 108
+16 CoreFoundation                 0x182196b5c __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 24
+17 CoreFoundation                 0x1821964a4 __CFRunLoopDoSources0 + 524
+18 CoreFoundation                 0x1821940a4 __CFRunLoopRun + 804
+19 CoreFoundation                 0x1820c22b8 CFRunLoopRunSpecific + 444
+20 GraphicsServices               0x183b76198 GSEventRunModal + 180
+21 UIKit                          0x1881097fc -[UIApplication _run] + 684
+22 UIKit                          0x188104534 UIApplicationMain + 208
+23 Agnes                          0x1000d5c98 main (main.m:32)
+24 libdispatch.dylib              0x1810a55b8 (Missing)
+
+--
+
+#0. Crashed: com.apple.main-thread
+0  Agnes                          0x100359960 -[Crashlytics crash] + 14
+1  Agnes                          0x1001793f0 -[FabricPlugin sendCrash:] (FabricPlugin.m:248)
+2  Agnes                          0x10018cf44 -[CDVCommandQueue execute:] (CDVCommandQueue.m:182)
+3  Agnes                          0x10018c838 -[CDVCommandQueue executePending] (CDVCommandQueue.m:134)
+4  Agnes                          0x10018b494 -[CDVUIWebViewNavigationDelegate webView:shouldStartLoadWithRequest:navigationType:] (CDVUIWebViewNavigationDelegate.m:112)
+5  Agnes                          0x1001813d8 -[CDVUIWebViewDelegate webView:shouldStartLoadWithRequest:navigationType:] (CDVUIWebViewDelegate.m:213)
+6  UIKit                          0x1882bbd44 -[UIWebView webView:decidePolicyForNavigationAction:request:frame:decisionListener:] + 300
+7  CoreFoundation                 0x1821ef150 __invoking___ + 144
+8  CoreFoundation                 0x1820e1eac -[NSInvocation invoke] + 284
+9  CoreFoundation                 0x1820e695c -[NSInvocation invokeWithTarget:] + 60
+10 WebKitLegacy                   0x187d87cf4 <redacted> + 156
+11 CoreFoundation                 0x1821ed070 ___forwarding___ + 404
+12 CoreFoundation                 0x1820e680c _CF_forwarding_prep_0 + 92
+13 CoreFoundation                 0x1821ef150 __invoking___ + 144
+14 CoreFoundation                 0x1820e1eac -[NSInvocation invoke] + 284
+15 WebCore                        0x186cf2d74 <redacted> + 108
+16 CoreFoundation                 0x182196b5c __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 24
+17 CoreFoundation                 0x1821964a4 __CFRunLoopDoSources0 + 524
+18 CoreFoundation                 0x1821940a4 __CFRunLoopRun + 804
+19 CoreFoundation                 0x1820c22b8 CFRunLoopRunSpecific + 444
+20 GraphicsServices               0x183b76198 GSEventRunModal + 180
+21 UIKit                          0x1881097fc -[UIApplication _run] + 684
+22 UIKit                          0x188104534 UIApplicationMain + 208
+23 Agnes                          0x1000d5c98 main (main.m:32)
+24 libdispatch.dylib              0x1810a55b8 (Missing)
+
+#1. Thread
+0  libsystem_kernel.dylib         0x1811b7a88 __workq_kernreturn + 8
+1  libsystem_pthread.dylib        0x18127b160 _pthread_wqthread + 968
+2  libsystem_pthread.dylib        0x18127ad8c start_wqthread + 4
+
+#2. com.apple.uikit.eventfetch-thread
+0  libsystem_kernel.dylib         0x181199188 mach_msg_trap + 8
+1  libsystem_kernel.dylib         0x181198ff8 mach_msg + 72
+2  CoreFoundation                 0x1821965d0 __CFRunLoopServiceMachPort + 192
+3  CoreFoundation                 0x1821941ec __CFRunLoopRun + 1132
+4  CoreFoundation                 0x1820c22b8 CFRunLoopRunSpecific + 444
+5  Foundation                     0x182bff26c -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 304
+6  Foundation                     0x182c1fdd0 -[NSRunLoop(NSRunLoop) runUntilDate:] + 96
+7  UIKit                          0x188a7dc38 -[UIEventFetcher threadMain] + 136
+8  Foundation                     0x182cfce68 __NSThread__start__ + 1024
+9  libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+10 libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+11 libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#3. Thread
+0  libsystem_kernel.dylib         0x1811b7a88 __workq_kernreturn + 8
+1  libsystem_pthread.dylib        0x18127b344 _pthread_wqthread + 1452
+2  libsystem_pthread.dylib        0x18127ad8c start_wqthread + 4
+
+#4. com.apple.NSURLConnectionLoader
+0  libsystem_kernel.dylib         0x181199188 mach_msg_trap + 8
+1  libsystem_kernel.dylib         0x181198ff8 mach_msg + 72
+2  CoreFoundation                 0x1821965d0 __CFRunLoopServiceMachPort + 192
+3  CoreFoundation                 0x1821941ec __CFRunLoopRun + 1132
+4  CoreFoundation                 0x1820c22b8 CFRunLoopRunSpecific + 444
+5  CFNetwork                      0x1828c7a70 <redacted> + 336
+6  Foundation                     0x182cfce68 __NSThread__start__ + 1024
+7  libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+8  libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+9  libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#5. Thread
+0  libsystem_kernel.dylib         0x1811b7314 __semwait_signal + 8
+1  libsystem_c.dylib              0x1810d525c nanosleep + 212
+2  libc++.1.dylib                 0x180be5994 std::__1::this_thread::sleep_for(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > const&) + 80
+3  JavaScriptCore                 0x1869c640c <redacted> + 76
+4  JavaScriptCore                 0x1869c5458 <redacted> + 128
+5  JavaScriptCore                 0x1869c5294 <redacted> + 60
+6  JavaScriptCore                 0x1869c5134 <redacted> + 80
+7  JavaScriptCore                 0x1869c64f8 <redacted> + 92
+8  JavaScriptCore                 0x1869c6424 <redacted> + 10
+9  JavaScriptCore                 0x1869c66d4 <redacted> + 92
+10 libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+11 libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+12 libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#6. WebThread
+0  libsystem_kernel.dylib         0x1811b6e1c __psynch_cvwait + 8
+1  libsystem_pthread.dylib        0x18127c9c0 <redacted> + 640
+2  WebCore                        0x186cdf138 <redacted> + 576
+3  CoreFoundation                 0x1821ed070 ___forwarding___ + 404
+4  CoreFoundation                 0x1820e680c _CF_forwarding_prep_0 + 92
+5  WebKitLegacy                   0x187dd6a58 <redacted> + 520
+6  WebCore                        0x1877c0514 <redacted> + 2388
+7  WebCore                        0x187183c08 <redacted> + 2256
+8  WebCore                        0x187182b10 <redacted> + 656
+9  WebCore                        0x187180e1c <redacted> + 1496
+10 WebCore                        0x18717e840 WebCore::FrameLoader::loadFrameRequest(WebCore::FrameLoadRequest const&, WebCore::Event*, WTF::PassRefPtr<WebCore::FormState>) + 604
+11 WebCore                        0x18717e1c8 <redacted> + 324
+12 WebCore                        0x18776cb90 <redacted> + 476
+13 WebCore                        0x18776b2e8 <redacted> + 116
+14 WebCore                        0x186c74420 <redacted> + 148
+15 WebCore                        0x186c74378 <redacted> + 28
+16 CoreFoundation                 0x1821971d8 __CFRUNLOOP_IS_CALLING_OUT_TO_A_TIMER_CALLBACK_FUNCTION__ + 28
+17 CoreFoundation                 0x182196eec __CFRunLoopDoTimer + 872
+18 CoreFoundation                 0x1821967a8 __CFRunLoopDoTimers + 244
+19 CoreFoundation                 0x1821943a4 __CFRunLoopRun + 1572
+20 CoreFoundation                 0x1820c22b8 CFRunLoopRunSpecific + 444
+21 WebCore                        0x186cc8490 <redacted> + 456
+22 libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+23 libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+24 libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#7. com.twitter.crashlytics.ios.MachExceptionServer
+0  Agnes                          0x10036fdd8 CLSProcessRecordAllThreads + 1572
+1  Agnes                          0x10036fdd8 CLSProcessRecordAllThreads + 1572
+2  Agnes                          0x10036fc94 CLSProcessRecordAllThreads + 1248
+3  Agnes                          0x100360444 CLSHandler + 48
+4  Agnes                          0x10035b3e8 CLSMachExceptionServer + 424
+5  libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+6  libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+7  libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#8. Thread
+0  libsystem_kernel.dylib         0x1811b7a88 __workq_kernreturn + 8
+1  libsystem_pthread.dylib        0x18127b344 _pthread_wqthread + 1452
+2  libsystem_pthread.dylib        0x18127ad8c start_wqthread + 4
+
+#9. JIT Worklist Worker Thread
+0  libsystem_kernel.dylib         0x1811b6e1c __psynch_cvwait + 8
+1  libsystem_pthread.dylib        0x18127c9c0 <redacted> + 640
+2  libc++.1.dylib                 0x180ba53ec std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) + 56
+3  JavaScriptCore                 0x1869aed64 WTF::ParkingLot::parkConditionallyImpl(void const*, WTF::ScopedLambda<bool ()> const&, WTF::ScopedLambda<void ()> const&, std::__1::chrono::time_point<std::__1::chrono::steady_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >) + 2132
+4  JavaScriptCore                 0x186786a5c <redacted> + 192
+5  JavaScriptCore                 0x186786eac <redacted> + 14
+6  JavaScriptCore                 0x1860f700c <redacted> + 212
+7  JavaScriptCore                 0x1860f6f1c <redacted> + 24
+8  libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+9  libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+10 libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#10. WTF Parallel Helper Thread
+0  libsystem_kernel.dylib         0x1811b6e1c __psynch_cvwait + 8
+1  libsystem_pthread.dylib        0x18127c9c0 <redacted> + 640
+2  libc++.1.dylib                 0x180ba53ec std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) + 56
+3  JavaScriptCore                 0x1869aed64 WTF::ParkingLot::parkConditionallyImpl(void const*, WTF::ScopedLambda<bool ()> const&, WTF::ScopedLambda<void ()> const&, std::__1::chrono::time_point<std::__1::chrono::steady_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >) + 2132
+4  JavaScriptCore                 0x1869ae2e8 <redacted> + 288
+5  JavaScriptCore                 0x1869ae088 <redacted> + 76
+6  JavaScriptCore                 0x1860f700c <redacted> + 212
+7  JavaScriptCore                 0x1860f6f1c <redacted> + 24
+8  libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+9  libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+10 libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#11. WebCore: LocalStorage
+0  libsystem_kernel.dylib         0x1811b6e1c __psynch_cvwait + 8
+1  libsystem_pthread.dylib        0x18127c9c0 <redacted> + 640
+2  libc++.1.dylib                 0x180ba53ec std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) + 56
+3  JavaScriptCore                 0x1869aed64 WTF::ParkingLot::parkConditionallyImpl(void const*, WTF::ScopedLambda<bool ()> const&, WTF::ScopedLambda<void ()> const&, std::__1::chrono::time_point<std::__1::chrono::steady_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >) + 2132
+4  WebKitLegacy                   0x187daee00 <redacted> + 128
+5  WebKitLegacy                   0x187daec18 <redacted> + 124
+6  WebKitLegacy                   0x187dae240 <redacted> + 68
+7  JavaScriptCore                 0x1860f700c <redacted> + 212
+8  JavaScriptCore                 0x1860f6f1c <redacted> + 24
+9  libsystem_pthread.dylib        0x18127d850 <redacted> + 240
+10 libsystem_pthread.dylib        0x18127d760 _pthread_start + 282
+11 libsystem_pthread.dylib        0x18127ad94 thread_start + 4
+
+#12. Thread
+0  libsystem_pthread.dylib        0x18127ad88 pthread_workqueue_addthreads_np + 126
+
+#13. Thread
+0  libsystem_kernel.dylib         0x1811b7a88 __workq_kernreturn + 8
+1  libsystem_pthread.dylib        0x18127b344 _pthread_wqthread + 1452
+2  libsystem_pthread.dylib        0x18127ad8c start_wqthread + 4
+
+#14. Thread
+0  libsystem_kernel.dylib         0x1811b7a88 __workq_kernreturn + 8
+1  libsystem_pthread.dylib        0x18127b344 _pthread_wqthread + 1452
+2  libsystem_pthread.dylib        0x18127ad8c start_wqthread + 4
+

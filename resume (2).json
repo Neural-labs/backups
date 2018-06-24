@@ -1,0 +1,92 @@
+{
+  "basics": {
+    "name": "Kai Keane",
+    "label": "Design consultation",
+    "picture": "",
+    "email": "kai@groupten.com",
+    "phone": "",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "20006",
+      "city": "Washington",
+      "countryCode": "US",
+      "region": "DC"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Corpus Callosum LLC, Ithaca, NY",
+      "position": "CEO/President",
+      "website": "https://agnes.io",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Formed an LLC focused on design consultation Engaged Learning + Research, Cornell University  Design consultation, web design, and promotional videography Cornell Tech & Entrepreneurship@Cornell, Cornell University  Promotional videography and brand strategy Photosynthesis Video Production Company, Ithaca, NY Editing and Computer graphics specialist Project Look Sharp, Ithaca, NY Ithaca College teacher media use training program, Ithaca, NY Video documentary 1 month of observing international development organizations Hiroshima, Nagasaki, and Kyoto, Japan Worked as a video intern to document American University Peace Tour Quetzaltenango and Antigua, Guatemala Lived in Japan for 11 Years",
+      "highlights": []
+    },
+    {
+      "company": "Cornell University Sustainable Design ",
+      "position": "Coordinating Director",
+      "website": "http://cusd.cornell.edu",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Videographer: Schoolhouse South Africa Project C.Y.C.L.E. (Conference for Youth Committed to Leadership and Education) Student Representative to the Board of Education, Ithaca, NY Taught 10th grade level English and Math to Burmese Refugees, Ithaca, NY",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Cornell University, Ithaca, NY",
+      "area": "College of Arts and Sciences, B.A., Anthropology",
+      "studyType": "Bachelor",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "3.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Music",
+      "level": "Producer and band member, The Mimis, Ithaca, NY Album, Mimi and the Stone, available on iTunes",
+      "keywords": [
+        "Music composition, piano & keyboards",
+        ""
+      ]
+    },
+    {
+      "name": "Producer and Band",
+      "level": "5",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music and Band",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Joe Nelson",
+      "reference": "It is my pleasure to recommend Kai, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
